@@ -1,0 +1,17 @@
+{
+    "name": "lugotardo/forgeexel",
+    "autoload": {
+        "psr-4": {
+            "Lugotardo\\Forgeexel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luan Gotardo",
+            "email": "luan.gotardo.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "box/spout": "^3.3"
+    }
+}
