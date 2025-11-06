@@ -1,17 +1,34 @@
 {
-    "name": "lugotardo/forgeexel",
-    "autoload": {
-        "psr-4": {
-            "Lugotardo\\Forgeexel\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Luan Gotardo",
-            "email": "luan.gotardo.dev@gmail.com"
-        }
-    ],
-    "require": {
-        "box/spout": "^3.3"
+  "name": "lugotardo/forgeexel",
+  "description": "Biblioteca PHP moderna e intuitiva para manipulação de arquivos Excel (XLSX) e CSV com suporte a formatação, fórmulas e múltiplas abas",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "excel",
+    "xlsx",
+    "csv",
+    "spreadsheet",
+    "export",
+    "import",
+    "php",
+    "forgeexcel"
+  ],
+  "homepage": "https://github.com/lugotardo/ForgeExcel",
+  "authors": [
+    {
+      "name": "Luan Gotardo",
+      "email": "luan.gotardo.dev@gmail.com"
     }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "box/spout": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lugotardo\\Forgeexel\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
